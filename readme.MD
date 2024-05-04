@@ -1,4 +1,8 @@
-Untuk mencoba kode di atas menggunakan Postman, kita dapat mengikuti langkah-langkah berikut:
+## Command Configuration
+- go mod init github.com/jwt
+- go get github.com/golang-jwt/jwt/v4
+
+## Untuk mencoba kode di atas menggunakan Postman, kita dapat mengikuti langkah-langkah berikut:
 
 - Jalankan server dengan menjalankan perintah go run nama_file.go pada terminal.
 - Buka Postman dan buat request baru dengan metode POST. Isikan alamat URL dengan http://localhost:8080/login
